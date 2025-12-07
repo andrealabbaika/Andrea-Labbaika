@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UC Recreation App Redesign | Andrea Labbaika</title>
+
+    <!-- Bootstrap 4 CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <!-- inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Shared sticky nav -->
+    <header class="site-header">
+      <nav class="nav">
+        <!-- back to home page -->
+        <a href="index.html#home" class="nav-logo">Andrea Labbaika</a>
+
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+        </button>
+
+        <ul class="nav-links">
+          <li><a href="index.html#work">Work</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1W0tpOmMsziAPH7M2pJ21EVHphbRJC_C4/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Resume</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="cs-main container">
+      <!-- Hero -->
+      <section class="cs-hero">
+        <div class="row cs-hero-layout">
+          <div class="col-lg-7">
+            <p class="cs-label">Case study · UX design</p>
+            <h1 class="cs-title">
+              UC Recreation App Redesign: Streamlining Student Booking &amp; Campus Access
+            </h1>
+            <p class="cs-intro">
+              Redesigning UC San Diego’s Recreation app to streamline the booking process and improve
+              community access to fitness, wellness, and recreation activities on campus. This case
+              study explores how an outdated app was reimagined into a functional, easily-accessible
+              tool.
+            </p>
+          </div>
+
+          <aside class="col-lg-5">
+            <div class="cs-meta">
+              <div class="cs-meta-group">
+                <h3>Organization</h3>
+                <p>UC San Diego Recreation</p>
+              </div>
+              <div class="cs-meta-group">
+                <h3>Tools</h3>
+                <p>Figma, FigJam</p>
+              </div>
+              <div class="cs-meta-group">
+                <h3>Project timeline</h3>
+                <p>January – February 2025</p>
+              </div>
+              <div class="cs-meta-group">
+                <h3>Role</h3>
+                <p>UI/UX designer</p>
+              </div>
+            </div>
+          </aside>
+        </div>
+
+        <div class="cs-hero-image cs-image-medium">
+          <img
+            src="images/Rec thumbnail.avif"
+            alt="UC San Diego Recreation app redesign mockups"
+            class="img-fluid"
+          />
+        </div>
+      </section>
+
+      <!-- Design Opportunity -->
+      <section class="cs-section">
+        <h2 class="cs-section-title">Design Opportunity</h2>
+
+        <p class="cs-body">
+          My inspiration for this project started when I wanted to book a yoga class through UC San
+          Diego Recreation. Instead of a simple process, I found myself clicking in circles through a
+          cluttered website that made even basic tasks feel confusing. That frustration made me
+          wonder if this was just a UCSD issue or a larger problem across recreation platforms.
+        </p>
+        <p class="cs-body">
+          I began looking at other UC campuses–most of their websites were serviceable, though not
+          always elegant. But I found a deeper issue with their mobile apps, where almost all buttons
+          redirected me to the website, and the app did not serve a clear purpose.
+        </p>
+        <p class="cs-body">
+          To dig further, I spoke with UCSD students and faculty about their own experiences. The
+          pattern was clear—while they valued Recreation as part of campus life, almost everyone
+          avoided the app after a few attempts. Many described it as “unfinished,” while others
+          simply deleted it. Even the website–which was functional–felt overwhelming and difficult
+          on mobile.
+        </p>
+        <p class="cs-body">
+          I saw UC San Diego’s underperforming digital tools as an inconvenience to the
+          organization’s ability to deliver on its mission: to engage the campus community in
+          lifelong well-being and active living. If students can’t easily book a class, check
+          schedules, or reserve a court, then the digital platform is failing to support the very
+          values of inclusion, service, and community that UC Rec stands for. It became an
+          opportunity for me to address this issue and connect my campus community to UC Rec’s
+          thriving in-person programs.
+        </p>
+
+        <div class="row cs-media">
+          <div class="col-md-6 text-center mb-3">
+            <div class="cs-image-small">
+              <img
+                src="images/UCSD Recreation App .webp"
+                alt="Screens from the UC San Diego Recreation mobile app and ratings"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 text-center mb-3">
+            <div class="cs-image-small">
+              <img
+                src="images/UCD Rec App.avif"
+                alt="Screens from the UC Davis Recreation mobile app"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="cs-media cs-media-single cs-image-wide">
+          <img
+            src="images/Rec Interviews.webp"
+            alt="Interview insights and key themes from UCSD students and faculty"
+            class="img-fluid"
+          />
+        </div>
+      </section>
+
+      <!-- Mapping the current experience -->
+      <section class="cs-section">
+        <h2 class="cs-section-title">Mapping the Current Experience</h2>
+
+        <div class="row cs-media">
+          <div class="col-md-6 text-center mb-3">
+            <div class="cs-image-medium">
+              <img
+                src="images/Rec Empathy Map.avif"
+                alt="Empathy map summarizing student motivations and pain points"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 text-center mb-3">
+            <div class="cs-image-medium">
+              <img
+                src="images/Rec User Journey.avif"
+                alt="User journey map of the UC Recreation experience"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Refining The Flow -->
+      <section class="cs-section">
+        <h2 class="cs-section-title">Refining The Flow</h2>
+
+        <p class="cs-body">
+          To move from research to design, I created an empathy map and user journeys to understand
+          how different users, including students and faculty, interact with UC Recreation. From
+          there, I developed personas and drafted multiple user flows to compare pain points in
+          booking classes versus booking courts. I sketched low-fidelity wireframes of each option to
+          visualize potential improvements.
+        </p>
+        <p class="cs-body">
+          A key trade-off was deciding which flow to prioritize. While faculty had valid needs, the
+          interviews showed that undergraduates were the most frustrated with booking courts through
+          the app. Since they also represented the majority of users, I chose to focus on this flow
+          for the redesign. This decision allowed me to directly address the highest pain point with
+          the clearest opportunity for improvement.
+        </p>
+
+        <!-- User flow -->
+        <div class="cs-media cs-media-single cs-image-wide">
+          <img
+            src="images/Rec user flow .avif"
+            alt="User flow diagram for the redesigned UC Rec court booking experience"
+            class="img-fluid"
+          />
+        </div>
+
+        <!-- Lofi wireframes -->
+        <div class="cs-media cs-media-single cs-image-wide">
+          <img
+            src="images/Rec lofi wireframe.avif"
+            alt="Low-fidelity wireframes for the UC Rec app redesign"
+            class="img-fluid"
+          />
+        </div>
+      </section>
+
+      <!-- Court Booking Flow -->
+      <section class="cs-section">
+        <h2 class="cs-section-title">Court Booking Flow</h2>
+
+        <p class="cs-body">
+          The redesigned flow begins with a secure single sign-on using UCSD credentials. From the
+          homepage, students can quickly select the type of court they want, view available time
+          slots, and finalize a booking in just a few taps. They also have the flexibility to add
+          their reservation to a calendar, modify details, or cancel if needed.
+        </p>
+
+        <div class="row cs-media">
+          <div class="col-md-6 cs-media-block mb-4 mb-md-0">
+            <h3 class="cs-media-title">Exploring and booking</h3>
+            <video controls class="cs-video">
+              <source src="images/Rec login copy.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+
+          <div class="col-md-6 cs-media-block">
+            <h3 class="cs-media-title">Check-in and campus access</h3>
+            <video controls class="cs-video">
+              <source src="images/Rec check in copy.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </section>
+
+      <!-- Usability Testing & Iteration -->
+      <section class="cs-section">
+        <h2 class="cs-section-title">Usability Testing &amp; Iteration</h2>
+
+        <p class="cs-body">
+          After building the high-fidelity prototype, I tested the flow with undergraduate students
+          who regularly use UC Recreation. Their feedback gave me two key opportunities: adding
+          reminder notifications before reservations and providing confirmation after check-in. I
+          designed a notification system and added a QR-based check-in feature to close the loop,
+          making the experience reliable and complete.
+        </p>
+      </section>
+
+      <!-- Reflections & Learnings -->
+      <section class="cs-section cs-section-last">
+        <h2 class="cs-section-title">Reflections &amp; Learnings</h2>
+
+        <p class="cs-body">
+          If I had more time, I would expand this project to include the user flow for booking
+          fitness classes, making the app more accessible for a wider range of UC Recreation users.
+          For this case study, I intentionally narrowed the scope to court booking, so I could
+          deliver a high-fidelity prototype with a clear, reliable flow that minimized confusion and
+          helped students reach their goal.
+        </p>
+        <p class="cs-body">
+          This project taught me how to prioritize impact, make trade-offs, and design with focus. I
+          also strengthened my skills in Figma, especially in visual design and high-fidelity
+          prototyping, while gaining confidence in applying user feedback to iterate on interaction
+          design decisions.
+        </p>
+
+        <a href="dna.html" class="cs-next-project">
+          Next project: DNA Web Design
+        </a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2025 Andrea Labbaika</p>
+      <p class="footer-links">
+        <a href="mailto:andrealabbaika@gmail.com">Email</a> ·
+        <a href="https://www.linkedin.com/in/andrealabbaika" target="_blank">LinkedIn</a>
+      </p>
+    </footer>
+
+    <!-- Bootstrap 4 JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+  </body>
+</html>

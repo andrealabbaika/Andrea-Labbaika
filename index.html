@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Andrea Labbaika | Portfolio</title>
+
+  <!-- google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- sticky header / nav -->
+  <header class="site-header">
+    <nav class="nav">
+      <!-- site ID, links to top of page -->
+      <a href="./" class="nav-logo">Andrea Labbaika</a>
+
+      <!-- mobile menu button (wired up later in JS) -->
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span class="nav-toggle-line"></span>
+        <span class="nav-toggle-line"></span>
+      </button>
+
+      <!-- right: main nav links -->
+      <ul class="nav-links">
+        <li><a href="#work">Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+
+        <li>
+          <a 
+            href="https://drive.google.com/file/d/1W0tpOmMsziAPH7M2pJ21EVHphbRJC_C4/view?usp=sharing" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- hero -->
+    <section id="home" class="hero">
+      <div class="hero-inner">
+        <h1 class="hero-title">Andrea Labbaika</h1>
+        <p class="hero-tagline">
+          San Diego–based designer from Indonesia, exploring UX and interactive design.
+        </p>
+      </div>
+    </section>
+
+    <!-- work section -->
+    <section id="work" class="section section-work">
+      <div class="section-header">
+        <h2 class="section-title">Selected work</h2>
+        <p class="section-subtitle">
+          A snapshot of projects that blend research, strategy, and visual design.
+        </p>
+      </div>
+
+      <div class="work-grid">
+        <!-- project 1 – Echo -->
+        <article class="project-card">
+          <div class="project-image">
+            <img
+              src="images/Echo thumbnail.avif"
+              alt="Mockups of Echo app screens"
+            />
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">
+              Echo: A Platform to Empower Marginalized Voices
+            </h3>
+            <p class="project-meta">UX design · Product design</p>
+            <p class="project-summary">
+              Designing an identity exploration app that helps users reflect on
+              intersecting identities through open-ended prompts and gentle guidance.
+            </p>
+            <a href="echo.html" class="project-link">View case study</a>
+          </div>
+        </article>
+
+        <!-- project 2 – UC Rec -->
+        <article class="project-card">
+          <div class="project-image">
+            <img
+              src="images/Rec thumbnail.avif"
+              alt="UC Recreation app redesign mockups"
+            />
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">
+              UC Recreation App Redesign: Streamlining Student Booking
+            </h3>
+            <p class="project-meta">UX design · Interaction design</p>
+            <p class="project-summary">
+              Improving how students discover, book, and manage courts and classes
+              with a clearer information architecture and smoother mobile flow.
+            </p>
+            <a href="rec.html" class="project-link">View case study</a>
+          </div>
+        </article>
+
+        <!-- project 3 – DNA -->
+        <article class="project-card">
+          <div class="project-image">
+            <img
+              src="images/DNA thumbnail.avif"
+              alt="DNA network automation platform dashboard mockups"
+            />
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">
+              DNA: Website Design for an IT Automation Platform
+            </h3>
+            <p class="project-meta">Web design · Marketing</p>
+            <p class="project-summary">
+              Designing a responsive marketing site that explains a complex network
+              automation platform in a simple, visual way for IT teams.
+            </p>
+            <a href="dna.html" class="project-link">View case study</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- about section -->
+    <section id="about" class="section section-about">
+      <div class="about-inner">
+        <div class="about-text">
+          <h2 class="section-title">About</h2>
+          <p>
+            I am an aspiring UX and product designer, aiming to connect business
+            and user needs with clear, logical solutions. With a background in
+            economics and design, I enjoy working across research, strategy, and
+            execution to build thoughtful digital experiences.
+          </p>
+          <p>
+            From nonprofits to global tech and early-stage brands, my work spans
+            digital interfaces, storytelling, and research-driven design.
+          </p>
+
+          <div class="about-columns">
+            <div class="about-column">
+              <h3 class="about-heading">Skills</h3>
+              <ul class="about-list">
+                <li>UX research</li>
+                <li>Wireframing and prototyping</li>
+                <li>Visual and interaction design</li>
+                <li>Usability testing</li>
+                <li>Competitive and market analysis</li>
+                <li>Information architecture</li>
+              </ul>
+            </div>
+            <div class="about-column">
+              <h3 class="about-heading">Tools</h3>
+              <ul class="about-list">
+                <li>Figma</li>
+                <li>Framer</li>
+                <li>Canva</li>
+                <li>Adobe XD</li>
+                <li>Google Workspace / Microsoft Office</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-photo">
+          <img
+            src="images/Portfolio headshot.avif"
+            alt="Photo of Andrea Labbaika"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section -->
+    <section id="contact" class="section section-contact">
+      <div class="contact-inner">
+        <h2 class="section-title">Let’s talk</h2>
+        <p class="contact-text">
+          Open to opportunities in UX, research, or collaboration. Feel free to reach out.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:andrealabbaika@gmail.com" class="contact-link">
+            Email
+          </a>
+          <a
+            href="https://www.linkedin.com/in/andrealabbaika/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="contact-link"
+          >
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 Andrea Labbaika</p>
+  </footer>
